@@ -1,44 +1,64 @@
-✈ Air Ticket System
-A modern Air Ticket System built using Java 17 and Spring Boot, where admins can manage flights with full CRUD operations, and users can purchase tickets for available flights. Admins can also verify or cancel ticket purchases.
+✈️ Air Ticket Sales 
+A modern Air Ticket Sales developed with Java 17 and Spring Boot, designed to streamline air travel booking. It features full CRUD functionality for flight management, ticket purchases, and admin-level control over transactions.
 
-🛫 Flight Management: Admins can manage flights (Create, Read, Update, Delete).
-🎟 Ticket Purchases: Users can purchase tickets for available flights.
-✅ Admin Control: Admins can verify and cancel ticket purchases.
-🔐 JWT Authentication & Role-based Authorization: Secure access to endpoints for users and admins.
-📖 Interactive API Documentation: Swagger UI integration for testing and exploring APIs.
-🐳 Docker Support: The application is containerized with Docker, and Docker Compose is configured for easy deployment.
-🔧 Tech Stack
+🚀 Overview
+This project enables:
+
+Admins to manage flight data and control ticket purchases.
+
+Users to browse flights and purchase tickets with ease.
+
+Secure access through JWT-based authentication.
+
+Clear, testable REST APIs using Swagger UI.
+
+Simple deployment using Docker & Docker Compose.
+
+🧰 Tech Stack
 Layer	Technology
 💻 Language	Java 17
-🌱 Framework	Spring Boot (Web, Data JPA, Security, Validation)
+🌱 Framework	Spring Boot (Web, Security, Data JPA, Validation)
 🛢 Database	PostgreSQL
-🧰 Build Tool	Gradle
-📦 Dependency	Spring Dependency Management Plugin
-🎯 Auth	JWT (via jjwt)
+🧪 Testing	JUnit, Spring Boot Test
+📦 Build Tool	Gradle
+🔐 Auth	JWT (via jjwt)
 🪄 Boilerplate	Lombok
 📖 Docs	Swagger UI (via Springdoc OpenAPI)
-🧪 Testing	JUnit, Spring Boot Test
-🌟 Features
-👥 For Users
-🔍 Browse available flights
-🎟 Purchase tickets for available flights
-📝 View purchased tickets
-🔐 For Admins
-➕ Create and manage flight listings
-✏ Update flight details (such as dates, prices, and destinations)
+🐳 Deployment	Docker, Docker Compose
+
+🌟 Core Features
+👥 User Features
+🔍 View available flights
+
+🎟 Purchase tickets
+
+📝 See your purchased tickets
+
+🔧 Admin Features
+➕ Create new flights
+
+✏ Edit flight details (dates, price, destination, etc.)
+
 🗑 Delete flights
-✅ Verify or cancel ticket purchases
-⚙ System Features
-✅ User authentication and authorization (JWT + Spring Security)
-🔒 Secure REST APIs with role-based access control
-📖 Interactive API documentation (Swagger UI)
-🐳 Docker support for easy deployment
-🚀 Installation & Setup
+
+✅ Verify or ❌ cancel ticket purchases
+
+⚙️ System Capabilities
+🔐 JWT-based authentication & role-based authorization
+
+📖 API documentation using Swagger UI
+
+🐳 Containerized with Docker for quick deployment
+
+📦 Installation & Setup
 ✅ Prerequisites
 Java 17+
+
 Gradle
-Docker & Docker Compose
+
 PostgreSQL
+
+Docker & Docker Compose
 🔽 Clone the Repository
-git clone https://github.com/Sedmeq/Air_Ticket_System.git
+git clone https://github.com/akhmedzade2202/AirTicketSales.git
 cd Air_Ticket_System
